@@ -1,0 +1,82 @@
+<html>
+    <head>
+        <title>Project 2</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&family=Dongle:wght@400;700&family=EB+Garamond:ital,wght@0,400;0,500;1,400&family=Gideon+Roman&family=Great+Vibes&family=Lobster&family=Lobster+Two:ital,wght@1,700&family=Oleo+Script+Swash+Caps&family=Pacifico&family=Praise&family=Tangerine:wght@400;700&display=swap');
+
+        *{
+            text-align: center;
+            margin: 0;
+            padding: 0;
+            font-family: 'Oleo Script Swash Caps', cursive;
+            color: aliceblue;
+        }
+        
+
+        body{
+            background: linear-gradient(#ff6e7f,#bfe9ff);
+        }
+
+        .Button{
+            padding: 10px;
+            border-radius: 5px;
+            margin-bottom: 20px;
+            background-color: lightcoral;
+            color: aliceblue;
+            margin-top: 250px;
+            width: 100px;
+            height: 50px;
+            animation-name: animation1;
+            animation-duration: 10s;
+        }
+
+        @keyframes animation1{
+                0%{
+                    background-color: red;
+                }
+                15%{
+                    background-color: orange;
+                    margin-left: 200px;
+                }
+                30%{
+                    background-color: yellow;
+                    margin-left: 400px;
+                }
+                45%{
+                    background-color: greenyellow;
+                    margin-right: 600px;
+                }
+                60%{
+                    background-color: aqua;
+                    margin-top: 800px;
+                }
+                75%{
+                    background-color: blueviolet;
+                    margin-right: 1000px;
+                }
+                100%{
+                    background-color: red;
+                    margin-bottom: 1400px;
+                }
+            }
+
+            h4{
+                margin-right: 500px;
+                font-size: 40px;
+            }
+
+    </style>
+    </head>
+    <body>
+        <h1>Click The Button!</h1>
+        <h2>Instructions</h2>
+        <h3>To play this game, you have to try to click the moving button which will take you to a different level.
+            There are three leveles in total, are you ready?
+        </h3>
+        <h3>Let's Go!</h3>
+        <h4>Points: 0</h4>
+        <form action="Project2part2.html">
+        <input class="Button" type="submit" value="Click me!">
+        </form>
+    </body>
+</html>
